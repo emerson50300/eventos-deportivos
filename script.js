@@ -371,18 +371,8 @@ function abrirReproductor(streamId) {
     const streamUrl = streams[streamId];
     const channelName = channelNames[streamId] || streamId;
 
-    // Abrir en pantalla completa
-    const playerWindow = window.open(
-        `reproductor.html?stream=${encodeURIComponent(streamUrl)}&name=${encodeURIComponent(channelName)}`,
-        '_blank',
-        'width=' + screen.width + ',height=' + screen.height + ',top=0,left=0'
-    );
-    
-    if (playerWindow) {
-        playerWindow.focus();
-    } else {
-        alert('Por favor, permita las ventanas emergentes para ver el canal');
-    }
+    // Intentar abrir directamente en la aplicación externa
+    window.location.href = streamUrl;
 }
 
 // Función para encontrar el canal apropiado según el evento
