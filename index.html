@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Deportivos En Vivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ccee9ace0a.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="dark:bg-slate-800 dark:text-slate-300">
+    <div class="container">
+        <h1>Eventos Deportivos En Vivo</h1>
+        <div class="eventos">
+            <!-- La Liga -->
+            <div class="event-card">
+                <div class="event-time">⏰ 11:30 AM 🇪🇸 La Liga!</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Real Sociedad vs Espanyol</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>La Liga 🇪🇸</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>España</h3>
+                            <button onclick="abrirReproductor('espn_deportes')">ESPN DEPORTES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Serie A -->
+            <div class="event-card">
+                <div class="event-time">⏰ 1:45 PM 🇮🇹 Serie A!</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Napoli vs Udinese</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>Serie A 🇮🇹</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>México</h3>
+                            <button onclick="abrirReproductor('espn_mx')">ESPN MX</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liga Francesa -->
+            <div class="event-card">
+                <div class="event-time">⏰ 1:45 PM 🇫🇷 Liga Francesa</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Angers SCO vs Marsella</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>Liga Francesa 🇫🇷</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>Latinoamérica</h3>
+                            <button onclick="abrirReproductor('bein_n')">BeIN Sports Ñ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- La Liga -->
+            <div class="event-card">
+                <div class="event-time">⏰ 2:00 PM 🇪🇸 La Liga!</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Barcelona vs Sevilla</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>La Liga 🇪🇸</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>España</h3>
+                            <button onclick="abrirReproductor('movistar_deportes')">Movistar Deportes HD</button>
+                        </div>
+
+                        <div class="region">
+                            <h3>México</h3>
+                            <button onclick="abrirReproductor('espn_mx')">ESPN México</button>
+                            <button onclick="abrirReproductor('sky_sports_mx')">SKY Sports MX HD</button>
+                            <button onclick="abrirReproductor('sky_sports_premier')">SKY Sports Premier HD</button>
+                        </div>
+
+                        <div class="region">
+                            <h3>Sudamérica</h3>
+                            <button onclick="abrirReproductor('espn_sur')">ESPN Sur</button>
+                            <button onclick="abrirReproductor('espn_hd')">ESPN HD</button>
+                        </div>
+
+                        <div class="region">
+                            <h3>Estados Unidos</h3>
+                            <button onclick="abrirReproductor('espn_deportes')">ESPN Deportes</button>
+                            <button onclick="abrirReproductor('bein_n')">BeIN Sports</button>
+                        </div>
+
+                        <div class="region">
+                            <h3>Centroamérica</h3>
+                            <button onclick="abrirReproductor('sky_sports_ca')">Sky Sports CA</button>
+                            <button onclick="abrirReproductor('tigo_sports')">Tigo Sports</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LMF -->
+            <div class="event-card">
+                <div class="event-time">⏰ 3:00 PM 🇸🇻 LMF!</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>L.A Firpo 🆚 C.D Águila</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>LMF 🇸🇻</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>Latinoamérica</h3>
+                            <button onclick="abrirReproductor('tigo_sports_1')">TIGO SPORTS 1</button>
+                            <button onclick="abrirReproductor('tigo_sports_2')">TIGO SPORTS 2</button>
+                            <button onclick="abrirReproductor('tigo_sports_3')">TIGO SPORTS 3</button>
+                            <button onclick="abrirReproductor('tigo_sports_4')">TIGO SPORTS 4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LMF -->
+            <div class="event-card">
+                <div class="event-time">⏰ 3:15 PM 🇸🇻 LMF!</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Platense vs Metapán</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>LMF 🇸🇻</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>El Salvador</h3>
+                            <button onclick="abrirReproductor('canal4_sv')">Canal 4 SV 🇸🇻</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Super Bowl -->
+            <div class="event-card destacado">
+                <div class="event-time">⏰ 5:30 PM 🇺🇸 Final de Super Bowl NFL</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Philadelphia Eagles 🆚 Kansas City Chiefs</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>Super Bowl 🇺🇸</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>Latinoamérica</h3>
+                            <button onclick="abrirReproductor('espn_hd')">ESPN HD</button>
+                            <button onclick="abrirReproductor('fox_sports_2')">Fox Sports 2</button>
+                            <button onclick="abrirReproductor('fox_sports_premium')">Fox Sports Premium</button>
+                            <button onclick="abrirReproductor('azteca7')">Azteca 7</button>
+                            <button onclick="abrirReproductor('canal5')">Canal 5</button>
+                            <button onclick="abrirReproductor('telemundo')">Telemundo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liga MX -->
+            <div class="event-card">
+                <div class="event-time">⏰ 6:00 PM 🇲🇽 Liga MX</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Pumas vs Mazatlán</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>Liga MX 🇲🇽</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>Estados Unidos</h3>
+                            <button onclick="abrirReproductor('tudn_usa')">TUDN USA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liga MX -->
+            <div class="event-card">
+                <div class="event-time">⏰ 9:05 PM 🇲🇽 Liga MX</div>
+                <div class="main-content">
+                    <!-- Lado izquierdo - Información del evento -->
+                    <div class="event-info">
+                        <div class="event-teams">
+                            <h1>Guadalajara 🆚 Tijuana</h1>
+                        </div>
+                        <div class="event-details">
+                            <h2>Liga MX 🇲🇽</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lado derecho - Canales -->
+                    <div class="channels-section">
+                        <div class="region">
+                            <h3>Estados Unidos</h3>
+                            <button onclick="abrirReproductor('telemundo')">Telemundo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

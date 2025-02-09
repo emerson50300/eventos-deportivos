@@ -1,0 +1,303 @@
+INFORMACIÓN DE CANALES Y URLS
+
+=== CANALES ESPN ===
+
+1. ESPN
+   URL: https://user.tvcluboficial.com/live/m/m/34.m3u8
+   Logo: http://x.playerlatino.live/espn.png
+   ID: 34
+
+2. ESPN 2
+   URL: https://user.tvcluboficial.com/live/m/m/35.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 35
+
+3. ESPN 2 HD
+   URL: https://user.tvcluboficial.com/live/m/m/484.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 484
+
+4. ESPN 2 HD(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1353.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 1353
+
+5. ESPN 2 HD(Multi) - Alternativo
+   URL: https://user.tvcluboficial.com/live/m/m/1354.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 1354
+
+6. ESPN 2 MX
+   URL: https://user.tvcluboficial.com/live/m/m/531.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 531
+
+7. ESPN 2 Mx HD(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1388.m3u8
+   Logo: http://x.playerlatino.live/espn2.png
+   ID: 1388
+
+8. ESPN 3 HD
+   URL: https://user.tvcluboficial.com/live/m/m/485.m3u8
+   Logo: http://x.playerlatino.live/espn3.png
+   ID: 485
+
+9. ESPN 3 HD(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1355.m3u8
+   Logo: http://x.playerlatino.live/espn3.png
+   ID: 1355
+
+10. ESPN 3 HD(Multi) - Alternativo
+    URL: https://user.tvcluboficial.com/live/m/m/1356.m3u8
+    Logo: http://x.playerlatino.live/espn3.png
+    ID: 1356
+
+11. ESPN 3 MX HD(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1389.m3u8
+    Logo: http://x.playerlatino.live/espn3.png
+    ID: 1389
+
+12. ESPN 4 HD(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1359.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1359
+
+13. ESPN 4 HD Sur(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1360.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1360
+
+14. ESPN Extra(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1357.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1357
+
+15. ESPN Extra(Multi) - Alternativo
+    URL: https://user.tvcluboficial.com/live/m/m/1358.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1358
+
+16. ESPN HD
+    URL: https://user.tvcluboficial.com/live/m/m/486.m3u8
+    Logo: http://x.playerlatino.live/espn.png
+    ID: 486
+
+17. ESPN HD(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1351.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1351
+
+18. ESPN HD(Multi) - Alternativo
+    URL: https://user.tvcluboficial.com/live/m/m/1352.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1352
+
+19. ESPN MX
+    URL: https://user.tvcluboficial.com/live/m/m/530.m3u8
+    Logo: http://x.playerlatino.live/espn.png
+    ID: 530
+
+20. ESPN MX HD(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1387.m3u8
+    Logo: http://x.playerlatino.live/espn4.png
+    ID: 1387
+
+21. ESPN Plus
+    URL: https://user.tvcluboficial.com/live/m/m/37.m3u8
+    Logo: http://x.playerlatino.live/espnplus.png
+    ID: 37
+
+22. ESPN Plus HD
+    URL: https://user.tvcluboficial.com/live/m/m/487.m3u8
+    Logo: http://x.playerlatino.live/espnplus.png
+    ID: 487
+
+23. ESPN Premium HD
+    URL: https://user.tvcluboficial.com/live/m/m/952.m3u8
+    Logo: http://x.playerlatino.live/espnpremium.png
+    ID: 952
+
+=== CANALES BEIN SPORTS ===
+
+1. BeinSports
+   URL: https://user.tvcluboficial.com/live/m/m/88.m3u8
+   Logo: http://x.playerlatino.live/beinsports.png
+   ID: 88
+
+2. BeinSports Ñ
+   URL: https://user.tvcluboficial.com/live/m/m/90.m3u8
+   Logo: http://x.playerlatino.live/beinsportsn.png
+   ID: 90
+
+3. BeinSports HD
+   URL: https://user.tvcluboficial.com/live/m/m/89.m3u8
+   Logo: http://x.playerlatino.live/beinsports.png
+   ID: 89
+
+4. BeinSports Ñ HD
+   URL: https://user.tvcluboficial.com/live/m/m/91.m3u8
+   Logo: http://x.playerlatino.live/beinsportsn.png
+   ID: 91
+
+=== CANALES FOX SPORTS ===
+
+1. Fox Sports
+   URL: https://user.tvcluboficial.com/live/m/m/52.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 52
+
+2. Fox Sports HD
+   URL: https://user.tvcluboficial.com/live/m/m/493.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 493
+
+3. Fox Sports MX
+   URL: https://user.tvcluboficial.com/live/m/m/527.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 527
+
+4. Fox Sports MX(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1361.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 1361
+
+5. Fox Sports Argentina HD
+   URL: https://user.tvcluboficial.com/live/m/m/769.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 769
+
+6. Fox Sports Sur
+   URL: https://user.tvcluboficial.com/live/m/m/402.m3u8
+   Logo: http://x.playerlatino.live/foxsports.png
+   ID: 402
+
+7. Fox Sports 2
+   URL: https://user.tvcluboficial.com/live/m/m/53.m3u8
+   Logo: http://x.playerlatino.live/foxsports2.png
+   ID: 53
+
+8. Fox Sports 2 HD
+   URL: https://user.tvcluboficial.com/live/m/m/494.m3u8
+   Logo: http://x.playerlatino.live/foxsports2.png
+   ID: 494
+
+9. Fox Sports 2 MX
+   URL: https://user.tvcluboficial.com/live/m/m/528.m3u8
+   Logo: http://x.playerlatino.live/foxsports2.png
+   ID: 528
+
+10. Fox Sports 2 MX(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1364.m3u8
+    Logo: http://x.playerlatino.live/foxsports2.png
+    ID: 1364
+
+11. Fox Sports 2 Sur(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1362.m3u8
+    Logo: http://x.playerlatino.live/foxsports2.png
+    ID: 1362
+
+12. Fox Sports 3 HD
+    URL: https://user.tvcluboficial.com/live/m/m/839.m3u8
+    Logo: http://x.playerlatino.live/foxsports3.png
+    ID: 839
+
+13. Fox Sports 3 MX
+    URL: https://user.tvcluboficial.com/live/m/m/54.m3u8
+    Logo: http://x.playerlatino.live/foxsports3.png
+    ID: 54
+
+14. Fox Sports 3 MX(Multi)
+    URL: https://user.tvcluboficial.com/live/m/m/1366.m3u8
+    Logo: http://x.playerlatino.live/foxsports3.png
+    ID: 1366
+
+15. Fox Sports Premium
+    URL: https://user.tvcluboficial.com/live/m/m/512.m3u8
+    Logo: http://x.playerlatino.live/foxsportspremium.png
+    ID: 512
+
+16. Fox Sports Premium HD
+    URL: https://user.tvcluboficial.com/live/m/m/658.m3u8
+    Logo: http://x.playerlatino.live/foxsportspremium.png
+    ID: 658
+
+=== CANALES DSPORTS ===
+
+1. DSports
+   URL: https://user.tvcluboficial.com/live/m/m/259.m3u8
+   Logo: http://x.playerlatino.live/directvsports.png
+   ID: 259
+
+2. DSports HD
+   URL: https://user.tvcluboficial.com/live/m/m/974.m3u8
+   Logo: http://x.playerlatino.live/directvsports.png
+   ID: 974
+
+3. DSports +
+   URL: https://user.tvcluboficial.com/live/m/m/935.m3u8
+   Logo: http://x.playerlatino.live/directvplus.png
+   ID: 935
+
+4. DSports 2
+   URL: https://user.tvcluboficial.com/live/m/m/667.m3u8
+   Logo: http://x.playerlatino.live/directvsports2.png
+   ID: 667
+
+5. DSports 2 HD
+   URL: https://user.tvcluboficial.com/live/m/m/975.m3u8
+   Logo: http://x.playerlatino.live/directvsports2.png
+   ID: 975
+
+6. DSports Colombia(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1075.m3u8
+   Logo: http://x.playerlatino.live/directvsports.png
+   ID: 1075
+
+=== CANALES MOVISTAR DEPORTES ===
+
+1. Movistar Deportes HD
+   URL: https://user.tvcluboficial.com/live/m/m/925.m3u8
+   Logo: http://x.playerlatino.live/movistar_deportes.png
+   ID: 925
+
+2. Movistar Deportes 2 HD
+   URL: https://user.tvcluboficial.com/live/m/m/367.m3u8
+   Logo: http://x.playerlatino.live/movistar_deportes2.png
+   ID: 367
+
+3. Movistar Deportes Sur
+   URL: https://user.tvcluboficial.com/live/m/m/366.m3u8
+   Logo: http://x.playerlatino.live/movistar_deportes.png
+   ID: 366
+
+=== OTROS CANALES DEPORTIVOS ===
+
+1. TVC Deportes
+   URL: https://user.tvcluboficial.com/live/m/m/837.m3u8
+   Logo: http://x.playerlatino.live/tvcdeportes.png
+   ID: 837
+
+2. Univisión Deportes
+   URL: https://user.tvcluboficial.com/live/m/m/373.m3u8
+   Logo: http://x.playerlatino.live/univisiondeportes.png
+   ID: 373
+
+3. CDN Deportes (República Dominicana)(Multi)
+   URL: https://user.tvcluboficial.com/live/m/m/1277.m3u8
+   ID: 1277
+
+=== INFORMACIÓN ADICIONAL ===
+
+API Principal:
+URL: https://tv.m3uts.xyz/player_api.php
+Usuario: m
+Contraseña: m
+
+Notas:
+- Los canales HD y Multi tienen prioridad cuando están disponibles
+- Algunos canales tienen versiones alternativas para mejor disponibilidad
+- Las versiones Multi ofrecen mayor estabilidad y opciones de conexión
+- Los canales MX están optimizados para México
+- Cada canal incluye su logo oficial para mejor presentación
+- Las URLs son directas para mejor calidad y estabilidad
+- Los IDs son únicos y necesarios para el sistema de streaming
