@@ -1,43 +1,53 @@
 // Mapeo de canales con sus URLs
 const streams = {
     'espn_deportes': 'https://user.tvcluboficial.com/live/m/m/530.m3u8',
-    'espn_mx': 'https://user.tvcluboficial.com/live/m/m/530.m3u8',
-    'espn_sur': 'https://user.tvcluboficial.com/live/m/m/34.m3u8',
-    'espn_hd': 'https://user.tvcluboficial.com/live/m/m/486.m3u8',
-    'fox_sports_2': 'https://user.tvcluboficial.com/live/m/m/53.m3u8',
-    'fox_sports_premium': 'https://user.tvcluboficial.com/live/m/m/658.m3u8',
+    'espn_mx': 'https://user.tvcluboficial.com/live/m/m/531.m3u8',
+    'bein_n': 'https://user.tvcluboficial.com/live/m/m/532.m3u8',
+    'movistar_deportes': 'https://user.tvcluboficial.com/live/m/m/533.m3u8',
     'sky_sports_mx': 'https://user.tvcluboficial.com/live/m/m/989.m3u8',
     'sky_sports_premier': 'https://user.tvcluboficial.com/live/m/m/900.m3u8',
-    'sky_sports_ca': 'https://user.tvcluboficial.com/live/m/m/1131.m3u8',
-    'vix_plus': 'https://user.tvcluboficial.com/live/m/m/1131.m3u8',
-    'tigo_sports': 'https://user.tvcluboficial.com/live/m/m/764.m3u8',
-    'bein_n': 'https://user.tvcluboficial.com/live/m/m/1132.m3u8',
-    'azteca7': 'https://user.tvcluboficial.com/live/m/m/7.m3u8',
-    'canal5': 'https://user.tvcluboficial.com/live/m/m/14.m3u8',
-    'telemundo': 'https://user.tvcluboficial.com/live/m/m/92.m3u8',
-    'tudn_usa': 'https://user.tvcluboficial.com/live/m/m/698.m3u8',
-    'movistar_deportes': 'https://user.tvcluboficial.com/live/m/m/925.m3u8'
+    'espn_sur': 'https://user.tvcluboficial.com/live/m/m/534.m3u8',
+    'espn_hd': 'https://user.tvcluboficial.com/live/m/m/535.m3u8',
+    'sky_sports_ca': 'https://user.tvcluboficial.com/live/m/m/536.m3u8',
+    'tigo_sports': 'https://user.tvcluboficial.com/live/m/m/537.m3u8',
+    'tigo_sports_1': 'https://user.tvcluboficial.com/live/m/m/538.m3u8',
+    'tigo_sports_2': 'https://user.tvcluboficial.com/live/m/m/539.m3u8',
+    'tigo_sports_3': 'https://user.tvcluboficial.com/live/m/m/540.m3u8',
+    'tigo_sports_4': 'https://user.tvcluboficial.com/live/m/m/541.m3u8',
+    'canal4_sv': 'https://user.tvcluboficial.com/live/m/m/542.m3u8',
+    'fox_sports_2': 'https://user.tvcluboficial.com/live/m/m/543.m3u8',
+    'fox_sports_premium': 'https://user.tvcluboficial.com/live/m/m/544.m3u8',
+    'azteca7': 'https://user.tvcluboficial.com/live/m/m/545.m3u8',
+    'canal5': 'https://user.tvcluboficial.com/live/m/m/546.m3u8',
+    'telemundo': 'https://user.tvcluboficial.com/live/m/m/547.m3u8',
+    'tudn_usa': 'https://user.tvcluboficial.com/live/m/m/548.m3u8',
+    'espn_barca': 'https://cors-anywhere.ammoapps.com/bantel-cdn4.iptvperu.tv:1935/YtRwP8/espn.stream/playlist.m3u8'
 };
 
 // Nombres de los canales
 const channelNames = {
     'espn_deportes': 'ESPN Deportes',
     'espn_mx': 'ESPN México',
-    'espn_sur': 'ESPN Sur',
-    'espn_hd': 'ESPN HD',
-    'fox_sports_2': 'Fox Sports 2',
-    'fox_sports_premium': 'Fox Sports Premium',
+    'bein_n': 'BeIN Sports Ñ',
+    'movistar_deportes': 'Movistar Deportes HD',
     'sky_sports_mx': 'SKY Sports MX HD',
     'sky_sports_premier': 'SKY Sports Premier HD',
+    'espn_sur': 'ESPN Sur',
+    'espn_hd': 'ESPN HD',
     'sky_sports_ca': 'Sky Sports CA',
-    'vix_plus': 'VIX+',
     'tigo_sports': 'Tigo Sports',
-    'bein_n': 'BeIN Sports',
+    'tigo_sports_1': 'TIGO SPORTS 1',
+    'tigo_sports_2': 'TIGO SPORTS 2',
+    'tigo_sports_3': 'TIGO SPORTS 3',
+    'tigo_sports_4': 'TIGO SPORTS 4',
+    'canal4_sv': 'Canal 4 SV ',
+    'fox_sports_2': 'Fox Sports 2',
+    'fox_sports_premium': 'Fox Sports Premium',
     'azteca7': 'Azteca 7',
     'canal5': 'Canal 5',
     'telemundo': 'Telemundo',
     'tudn_usa': 'TUDN USA',
-    'movistar_deportes': 'Movistar Deportes HD'
+    'espn_barca': 'ESPN (Barcelona vs Girona)'
 };
 
 // Mapeo de canales ESPN con sus URLs directas
@@ -136,6 +146,11 @@ const ESPN_CHANNELS = {
         url: 'https://user.tvcluboficial.com/live/m/m/952.m3u8',
         logo: 'http://x.playerlatino.live/espnpremium.png',
         id: 952
+    },
+    'ESPN Barca': {
+        url: 'https://cors-anywhere.ammoapps.com/bantel-cdn4.iptvperu.tv:1935/YtRwP8/espn.stream/playlist.m3u8',
+        logo: 'http://x.playerlatino.live/espn.png',
+        id: 'espn_barca'
     }
 };
 

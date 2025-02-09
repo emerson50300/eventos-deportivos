@@ -476,6 +476,26 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
+/* Agregando estilo para botones de partidos en vivo */
+.live-match {
+    background-color: #d32f2f !important;
+    color: white !important;
+    border: none !important;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 /* Responsive design */
 @media (max-width: 1024px) {
     .main-content {
