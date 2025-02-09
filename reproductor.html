@@ -26,7 +26,6 @@
             width: 100%;
             height: auto;
             background: #000;
-            border-radius: 8px;
         }
         .channel-info {
             position: absolute;
@@ -49,73 +48,39 @@
             cursor: pointer;
             z-index: 1000;
         }
-        .back-button:hover {
-            background: rgba(0, 0, 0, 0.9);
-        }
     </style>
 </head>
 <body>
-    <button class="back-button" onclick="window.close()">Cerrar</button>
     <div class="player-container">
-        <div id="channel-info" class="channel-info"></div>
         <video id="videoPlayer" controls></video>
+        <div class="channel-info"></div>
+        <button class="back-button" onclick="window.close()">Volver</button>
     </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const video = document.getElementById('videoPlayer');
-            const channelInfo = document.getElementById('channel-info');
             const params = new URLSearchParams(window.location.search);
-            const streamUrl = params.get('stream');
-            const channelName = params.get('name');
+            const streamUrl = decodeURIComponent(params.get('stream'));
+            const channelName = decodeURIComponent(params.get('name'));
+            
+            // Mostrar el nombre del canal
+            const channelInfo = document.querySelector('.channel-info');
+            channelInfo.textContent = channelName;
 
-            if (channelName) {
-                channelInfo.textContent = channelName;
-                document.title = 'IPTV - ' + channelName;
-            }
-
+            // Inicializar el reproductor
+            const video = document.getElementById('videoPlayer');
+            
             if (Hls.isSupported()) {
-                const hls = new Hls({
-                    debug: false,
-                    enableWorker: true,
-                    lowLatencyMode: true,
-                    backBufferLength: 90
-                });
-                
+                const hls = new Hls();
                 hls.loadSource(streamUrl);
                 hls.attachMedia(video);
-                
                 hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                    video.play().catch(function(error) {
-                        console.log("Play failed:", error);
-                    });
+                    video.play();
                 });
-
-                hls.on(Hls.Events.ERROR, function(event, data) {
-                    if (data.fatal) {
-                        switch(data.type) {
-                            case Hls.ErrorTypes.NETWORK_ERROR:
-                                console.log("Error de red, intentando reconectar...");
-                                hls.startLoad();
-                                break;
-                            case Hls.ErrorTypes.MEDIA_ERROR:
-                                console.log("Error de medio, intentando recuperar...");
-                                hls.recoverMediaError();
-                                break;
-                            default:
-                                console.log("Error fatal, no se puede recuperar");
-                                hls.destroy();
-                                break;
-                        }
-                    }
-                });
-            }
-            // Para navegadores que soporten HLS nativamente como Safari
-            else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = streamUrl;
                 video.addEventListener('loadedmetadata', function() {
-                    video.play().catch(function(error) {
-                        console.log("Play failed:", error);
-                    });
+                    video.play();
                 });
             }
         });
